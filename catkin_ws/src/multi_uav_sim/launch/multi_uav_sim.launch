@@ -1,0 +1,9 @@
+<launch>
+	<node name="sim_uav_0" pkg="multi_uav_sim" type="mission_test_1.py" args="Traj_1.plan" output="screen"/>
+	<node name="sim_uav_1" pkg="multi_uav_sim" type="mission_test_2.py" args="Traj_2.plan" output="screen"/>
+	<node name="sim_uav_2" pkg="multi_uav_sim" type="mission_test_3.py" args="Traj_3.plan" output="screen"/>
+	<node name="sim_uav_3" pkg="multi_uav_sim" type="mission_test_4.py" args="Traj_4.plan" output="screen"/>
+	<node name="compute_distances" pkg="multi_uav_sim" type="compute_distances.py" output="screen"/>
+	<node name="compute_dist_stats" pkg="multi_uav_sim" type="compute_dist_stats.py" output="screen"/>
+	<node name="Plot_Distances" pkg="rqt_plot" type="rqt_plot" args="/d_01 /d_02 /d_03 /d_12 /d_13 /d_23 /avg_dist /min_dist"/>
+</launch>

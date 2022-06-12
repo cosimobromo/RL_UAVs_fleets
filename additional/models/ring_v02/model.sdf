@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+    <model name="ring_v02">
+        <pose>0 0 0 0 0 0</pose>
+        <static>1</static>
+
+        <include>
+            <pose>50 0 1.5 0 0 3.14</pose>
+            <static>true</static>
+            <uri>model://montante_blu</uri>
+        </include>
+        <include>
+            <pose>50 50 1.5 0 0 1.57</pose>
+            <static>true</static>
+            <uri>model://montante_verde</uri>
+        </include>
+        <include>
+            <pose>0 50 1.5 0 0 -1.57</pose>
+            <static>true</static>
+            <uri>model://montante_viola</uri>
+        </include>
+        <include>
+            <pose>0 0 1.5 0 0 -1.57</pose>
+            <static>true</static>
+            <uri>model://montante_giallo</uri>
+        </include>
+	<include>
+	    <pose>5 0 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_01</uri>
+	</include>
+        <include>
+	    <pose>15 0 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_02</uri>
+	</include>
+	<include>
+	    <pose>25 0 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_03</uri>
+	</include>
+	<include>
+	    <pose>35 0 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_04</uri>
+	</include>
+	<include>
+	    <pose>45 0 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_05</uri>
+	</include>
+	<include>
+	    <pose>5 50 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_06</uri>
+	</include>
+        <include>
+	    <pose>15 50 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_07</uri>
+	</include>
+	<include>
+	    <pose>25 50 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_08</uri>
+	</include>
+	<include>
+	    <pose>35 50 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_09</uri>
+	</include>
+	<include>
+	    <pose>45 50 0 0 0 0</pose>
+	    <static>true</static>
+	    <uri>model://wall_10</uri>
+	</include>
+	<include>
+	    <pose>0 5 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_11</uri>
+	</include>
+        <include>
+	    <pose>0 15 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_12</uri>
+	</include>
+	<include>
+	    <pose>0 25 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_13</uri>
+	</include>
+	<include>
+	    <pose>0 35 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_14</uri>
+	</include>
+	<include>
+	    <pose>0 45 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_15</uri>
+	</include>
+	<include>
+	    <pose>50 5 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_16</uri>
+	</include>
+        <include>
+	    <pose>50 15 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_17</uri>
+	</include>
+	<include>
+	    <pose>50 25 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_18</uri>
+	</include>
+	<include>
+	    <pose>50 35 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_19</uri>
+	</include>
+	<include>
+	    <pose>50 45 0 0 0 1.57</pose>
+	    <static>true</static>
+	    <uri>model://wall_20</uri>
+	</include>
+	<include>
+		<uri>model://ob_1</uri>
+	</include>
+	<include>
+		<uri>model://ob_2</uri>
+	</include>
+	<include>
+		<uri>model://ob_3</uri>
+	</include>
+	<include>
+		<uri>model://ob_4</uri>
+	</include>
+	<include>
+		<uri>model://ob_5</uri>
+	</include>
+	<include>
+		<uri>model://ob_6</uri>
+	</include>
+	<include>
+		<uri>model://ob_7</uri>
+	</include>
+	<include>
+		<uri>model://ob_8</uri>
+	</include>
+	<include>
+		<uri>model://ob_9</uri>
+	</include>
+	<include> 
+          <uri>model://ground_plane</uri> 
+      	</include> 
+    </model>
+</sdf>

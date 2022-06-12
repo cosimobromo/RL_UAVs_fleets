@@ -1,0 +1,8 @@
+prefix=/home/cosimo/catkin_ws/install
+
+Name: multi_uav_sim
+Description: Description of multi_uav_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

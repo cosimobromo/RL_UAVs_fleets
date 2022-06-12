@@ -1,0 +1,16 @@
+sz1 100
+sz2 100
+precision 0.1
+max_episode_length 300
+FOV_dim 11
+goal_dim 2
+num_states 2
+num_actions 9
+num_obstacle_dirs 9
+motion_amount 4
+obst_det_range 10
+N_training_maps 2700
+N_testing_maps 300
+safety_distance 2
+dt 1
+save_maps 1

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="wall_15">
+    <pose>0 0 0 0 0 0</pose>
+    <static>0</static>
+    <link name="link">
+      <inertial>
+        <pose>0 0 1.501 0 0 0</pose>
+        <mass>100</mass>
+        <inertia>
+          <ixx>1000000</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>18064.33</iyy>
+          <iyz>0</iyz>
+          <izz>17637.50</izz>
+        </inertia>
+      </inertial>
+
+ <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://../meshes/wall_10.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://../meshes/wall_10.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

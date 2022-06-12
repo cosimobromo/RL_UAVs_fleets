@@ -1,0 +1,8 @@
+prefix=/home/cosimo/catkin_ws/devel
+
+Name: position_setpoints_single
+Description: Description of position_setpoints_single
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
